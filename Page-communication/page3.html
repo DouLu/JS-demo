@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="name" type="text" placeholder="输入内容">
+<input type="button" id="btn" value="提交">
+<script type="text/javascript" src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript">
+    $(function(){
+        $("#btn").click(function(){
+            var name=$("#name").val();
+            document.cookie="name="+name;
+        });
+    });
+</script>
+</body>
+</html>
