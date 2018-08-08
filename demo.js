@@ -109,3 +109,28 @@ const sleep = (timeountMS) => new Promise((resolve) => {
     await sleep(1000);
     console.log(new Date, i);
 })();
+
+
+/*for(var i=0; i<10; i++){
+
+}
+console.log(i);
+
+var a = {n: 1};
+var b = a;
+a.x = a = {n: 2};
+console.log(a.x);
+console.log(b.x);
+
+console.log(1&&2);
+
+var a = 1;
+function b() {
+    var a = 2;
+    function c() {
+        console.log(a);
+    }
+    return c;
+}
+b()();
+*/

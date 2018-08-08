@@ -2,10 +2,20 @@
   <library name="Generated files" type="javaScript">
     <properties>
       <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/js/closure.js" />
+        <item url="file://$PROJECT_DIR$/js/this.js" />
+        <item url="file://$PROJECT_DIR$/js/call-apply.js" />
+        <item url="file://$PROJECT_DIR$/js/scope.js" />
+        <item url="file://$PROJECT_DIR$/js/prototype-chain.js" />
         <item url="file://$PROJECT_DIR$/js/demo.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
+      <root url="file://$PROJECT_DIR$/js/closure.js" />
+      <root url="file://$PROJECT_DIR$/js/this.js" />
+      <root url="file://$PROJECT_DIR$/js/call-apply.js" />
+      <root url="file://$PROJECT_DIR$/js/scope.js" />
+      <root url="file://$PROJECT_DIR$/js/prototype-chain.js" />
       <root url="file://$PROJECT_DIR$/js/demo.js" />
     </CLASSES>
     <SOURCES />
