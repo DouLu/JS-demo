@@ -5,6 +5,7 @@
         <item url="file://$PROJECT_DIR$/js/closure.js" />
         <item url="file://$PROJECT_DIR$/js/this.js" />
         <item url="file://$PROJECT_DIR$/js/call-apply.js" />
+        <item url="file://$PROJECT_DIR$/js/http.js" />
         <item url="file://$PROJECT_DIR$/js/scope.js" />
         <item url="file://$PROJECT_DIR$/js/prototype-chain.js" />
         <item url="file://$PROJECT_DIR$/js/demo.js" />
@@ -14,6 +15,7 @@
       <root url="file://$PROJECT_DIR$/js/closure.js" />
       <root url="file://$PROJECT_DIR$/js/this.js" />
       <root url="file://$PROJECT_DIR$/js/call-apply.js" />
+      <root url="file://$PROJECT_DIR$/js/http.js" />
       <root url="file://$PROJECT_DIR$/js/scope.js" />
       <root url="file://$PROJECT_DIR$/js/prototype-chain.js" />
       <root url="file://$PROJECT_DIR$/js/demo.js" />

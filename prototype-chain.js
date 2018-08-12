@@ -53,7 +53,7 @@ Person.prototype = {
     age: 28,
     job: 'Software Engineer',
     sayName: function() {
-        alert(this.name);
+        console.log(this.name);
     }
 };
 let person1 = new Person();
