@@ -8,6 +8,7 @@
         <item url="file://$PROJECT_DIR$/js/call-apply.js" />
         <item url="file://$PROJECT_DIR$/js/http.js" />
         <item url="file://$PROJECT_DIR$/js/scope.js" />
+        <item url="file://$PROJECT_DIR$/js/arrow-function.js" />
         <item url="file://$PROJECT_DIR$/js/prototype-chain.js" />
         <item url="file://$PROJECT_DIR$/js/demo.js" />
       </sourceFilesUrls>
@@ -19,6 +20,7 @@
       <root url="file://$PROJECT_DIR$/js/call-apply.js" />
       <root url="file://$PROJECT_DIR$/js/http.js" />
       <root url="file://$PROJECT_DIR$/js/scope.js" />
+      <root url="file://$PROJECT_DIR$/js/arrow-function.js" />
       <root url="file://$PROJECT_DIR$/js/prototype-chain.js" />
       <root url="file://$PROJECT_DIR$/js/demo.js" />
     </CLASSES>
