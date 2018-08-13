@@ -2,6 +2,7 @@
   <library name="Generated files" type="javaScript">
     <properties>
       <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/js/datePicker.js" />
         <item url="file://$PROJECT_DIR$/js/closure.js" />
         <item url="file://$PROJECT_DIR$/js/this.js" />
         <item url="file://$PROJECT_DIR$/js/dynamic-programming.js" />
@@ -14,6 +15,7 @@
       </sourceFilesUrls>
     </properties>
     <CLASSES>
+      <root url="file://$PROJECT_DIR$/js/datePicker.js" />
       <root url="file://$PROJECT_DIR$/js/closure.js" />
       <root url="file://$PROJECT_DIR$/js/this.js" />
       <root url="file://$PROJECT_DIR$/js/dynamic-programming.js" />
