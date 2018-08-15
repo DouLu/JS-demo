@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    let p = new Promise(function (resolve,reject) {
+        $.ajax({
+            url:'data/arr.json',
+            dataType:'json',
+            success:function (arr) {
+                resolve(arr);
+            },
+            error:function (err) {
+                reject(err);
+            }
+        });
+    });
+    p.then(function (arr) {
+        console.log('数据成功：'+JSON.stringify(arr));
+    },function (err) {
+        console.log('数据失败：'+err);
+    });
+
+    //race有一个成功，则返回resolve
+    //all有一个失败，则返回reject
+    Promise.all([
+        $.ajax({ url:'data/arr.json',dataType:'json'}),
+        $.ajax({ url:'data/arr1.json',dataType:'json'})
+    ]).then(function (arr) {
+        let [arr1,arr2] = arr;
+        console.log('所有请求返回的数据：'+JSON.stringify(arr1),JSON.stringify(arr2));
+    },function (err) {
+        console.log('数据请求至少失败一个')
+    });
+    
+    function createPromise(url) {
+        return new Promise(function (resolve,reject) {
+            $.ajax({
+                url:url,
+                dataType:'json',
+                success:function (arr) {
+                    resolve(arr);
+                },
+                error:function (err) {
+                    reject(err);
+                }
+            });
+        });
+    }
+
+    Promise.race([
+        createPromise('data/arr1.json'),
+        createPromise('arr.json')
+    ]).then(function (arr) {
+        console.log('请求成功的数据：'+JSON.stringify(arr));
+    },function (err) {
+        console.log('所有请求都失败了');
+    });
+</script>
+</body>
+</html>

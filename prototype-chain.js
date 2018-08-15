@@ -2,7 +2,7 @@
  *author:doulu
  *create time:2018-08-08
  *description:原型链
- * JavaScript中的每个对象都有一个prototype属性，我们称之为原型，而原型的值也是一个对象，因此它也有自己的原型，这样就串联起来了一条原型链，
+ * JavaScript中的每个对象都有一个_proto_属性，我们称之为原型，而原型的值也是一个对象，因此它也有自己的原型，这样就串联起来了一条原型链，
  * 原型链的链头是object,它的prototype比较特殊，值为null。
  原型链的作用是用于对象继承，
  函数A的原型属性(prototype property)是一个对象，当这个函数被用作构造函数来创建实例时，
@@ -11,6 +11,16 @@
  当访问对象的一个属性时, 首先查找对象本身, 找到则返回; 若未找到,
  则继续查找其原型对象的属性(如果还找不到实际上还会沿着原型链向上查找, 直至到根). 只要没有被覆盖的话, 对象原型的属性就能在所有的实例中找到，若整个原型链未找到则返回undefined
  */
+function Person(name){
+    this.name = name;
+}
+var p1 = new Person('louis');
+
+console.log(Person.prototype);//Person原型 {constructor: Person(name),__proto__: Object}
+console.log(p1.prototype);//undefined
+
+console.log(Person.__proto__);//空函数, function(){}
+console.log(p1.__proto__ == Person.prototype);//true
 function Dog(name){
     this.name = name;
 }
