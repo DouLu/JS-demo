@@ -5,6 +5,7 @@
         <item url="file://$PROJECT_DIR$/js/promise.js" />
         <item url="file://$PROJECT_DIR$/js/closure.js" />
         <item url="file://$PROJECT_DIR$/js/dynamic-programming.js" />
+        <item url="file://$PROJECT_DIR$/js/Package.js" />
         <item url="file://$PROJECT_DIR$/js/data-type.js" />
         <item url="file://$PROJECT_DIR$/js/demo.js" />
         <item url="file://$PROJECT_DIR$/js/datePicker.js" />
@@ -12,8 +13,8 @@
         <item url="file://$PROJECT_DIR$/js/this.js" />
         <item url="file://$PROJECT_DIR$/js/call-apply.js" />
         <item url="file://$PROJECT_DIR$/js/http.js" />
-        <item url="file://$PROJECT_DIR$/js/scope.js" />
         <item url="file://$PROJECT_DIR$/js/arrow-function.js" />
+        <item url="file://$PROJECT_DIR$/js/scope.js" />
         <item url="file://$PROJECT_DIR$/js/prototype-chain.js" />
       </sourceFilesUrls>
     </properties>
@@ -21,6 +22,7 @@
       <root url="file://$PROJECT_DIR$/js/promise.js" />
       <root url="file://$PROJECT_DIR$/js/closure.js" />
       <root url="file://$PROJECT_DIR$/js/dynamic-programming.js" />
+      <root url="file://$PROJECT_DIR$/js/Package.js" />
       <root url="file://$PROJECT_DIR$/js/data-type.js" />
       <root url="file://$PROJECT_DIR$/js/demo.js" />
       <root url="file://$PROJECT_DIR$/js/datePicker.js" />
@@ -28,8 +30,8 @@
       <root url="file://$PROJECT_DIR$/js/this.js" />
       <root url="file://$PROJECT_DIR$/js/call-apply.js" />
       <root url="file://$PROJECT_DIR$/js/http.js" />
-      <root url="file://$PROJECT_DIR$/js/scope.js" />
       <root url="file://$PROJECT_DIR$/js/arrow-function.js" />
+      <root url="file://$PROJECT_DIR$/js/scope.js" />
       <root url="file://$PROJECT_DIR$/js/prototype-chain.js" />
     </CLASSES>
     <SOURCES />
