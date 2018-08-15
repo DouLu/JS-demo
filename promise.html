@@ -60,6 +60,26 @@
     },function (err) {
         console.log('所有请求都失败了');
     });
+    
+    new Promise(function (resolve, reject) {
+        console.log('start new Promise...');
+        let timeOut = Math.random() * 2;
+        console.log('set timeout to: ' + timeOut + ' seconds.');
+        setTimeout(function () {
+            if (timeOut < 1) {
+                console.log('call resolve()...');
+                resolve('200 OK');
+            }
+            else {
+                console.log('call reject()...');
+                reject('timeout in ' + timeOut + ' seconds.');
+            }
+        }, timeOut * 1000);
+    }).then(function (r) {
+        console.log('Done: ' + r);
+    }).catch(function (reason) {
+        console.log('Failed: ' + reason);
+    });
 </script>
 </body>
 </html>

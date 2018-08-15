@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="myDiv" style="height: 100px;width: 100px;background-color: pink;position:absolute;left:0;"></div>
+<script>
+    myDiv.onclick = function(){
+        var timer = setInterval(function(){
+            if(parseInt(myDiv.style.left) > 200){
+                clearInterval(timer);
+                return false;
+            }
+            myDiv.style.left = parseInt(myDiv.style.left) + 5 + 'px';
+
+        },16);
+    }
+</script>
+</body>
+</html>
