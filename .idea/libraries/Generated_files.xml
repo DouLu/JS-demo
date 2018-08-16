@@ -4,8 +4,10 @@
       <sourceFilesUrls>
         <item url="file://$PROJECT_DIR$/js/promise.js" />
         <item url="file://$PROJECT_DIR$/js/closure.js" />
+        <item url="file://$PROJECT_DIR$/js/copy.js" />
         <item url="file://$PROJECT_DIR$/js/dynamic-programming.js" />
         <item url="file://$PROJECT_DIR$/js/Package.js" />
+        <item url="file://$PROJECT_DIR$/js/maxTag.js" />
         <item url="file://$PROJECT_DIR$/js/data-type.js" />
         <item url="file://$PROJECT_DIR$/js/demo.js" />
         <item url="file://$PROJECT_DIR$/js/datePicker.js" />
@@ -21,8 +23,10 @@
     <CLASSES>
       <root url="file://$PROJECT_DIR$/js/promise.js" />
       <root url="file://$PROJECT_DIR$/js/closure.js" />
+      <root url="file://$PROJECT_DIR$/js/copy.js" />
       <root url="file://$PROJECT_DIR$/js/dynamic-programming.js" />
       <root url="file://$PROJECT_DIR$/js/Package.js" />
+      <root url="file://$PROJECT_DIR$/js/maxTag.js" />
       <root url="file://$PROJECT_DIR$/js/data-type.js" />
       <root url="file://$PROJECT_DIR$/js/demo.js" />
       <root url="file://$PROJECT_DIR$/js/datePicker.js" />

@@ -19,10 +19,11 @@ console.log(typeof Object);//function
 /*所有引用类型的值都是object的实例*/
 //object instanceof AFunction
 // res = variable instanceof constructor
-let person = {};
 let arr = [1,2];
-console.log( person instanceof Object);//true
+let date = new Date();
+console.log( arr instanceof Object);//true
 console.log( arr instanceof Array);//true
+console.log( date instanceof Object);//true
 
 //Object类型是所以它的实例基础，也就是Object类型具有的所有属性和方法，同样存在于更具体的对象中
 /**
