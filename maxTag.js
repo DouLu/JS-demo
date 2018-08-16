@@ -2,6 +2,9 @@
  *author:doulu
  *create time:2018-08-16
  *description:找出页面使用最多的标签已经标签使用次数
+ * HTMLCollection
+ * NodeList
+ * reduce
  */
 let tags = document.getElementsByTagName('*');
 let tagNames = [];
