@@ -232,6 +232,9 @@
         //上一步盘子分布情况
         let preStepState = stepArr[n -1];
 
+        pillarPlate('pA',preStepState);
+
+        /*
         for(let i=0;i<preStepState.pA.length;i++){
 
             if($('#pillarA').has($('#p'+preStepState.pA[i])).length === 0){
@@ -254,8 +257,32 @@
                 $('#p'+preStepState.pC[i]).css({'bottom':30*hasNum});
             }
         }
+        */
+
 
         firstClick = false;
+    }
+
+    //每个柱子盘子放置
+    function pillarPlate(state) {
+        for(let key in state){
+            let str = '';
+            for(let i=0;i<state[key].length;i++){
+                str +='<div class="plate" id="p'+state[key][i]+'" data-p='+state[key][i]+' ondragstart="drag(event)">'+state[key][i]+'</div>';
+            }
+            $('#pillar'+key.slice(1)).html(str);
+
+            let Wid = $('.pillar').width();
+            for(let i=0;i<state[key].length;i++){
+                $('#p'+state[key][i]).width((Wid - 40*state[key][i]));
+            }
+            //循环计算底部位置
+            let initBot = parseInt($('#pillar'+key.slice(1)).children('.plate:first-child').attr('data-p'));
+            $('#pillar'+key.slice(1)).find('.plate').each(function () {
+                console.log('11'+$(this).previousSbiling);
+                $(this).css('bottom',30*($(this).attr('data-p') - initBot));
+            });
+        }
     }
 </script>
 </body>
